@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arknights Official Artworks Reader</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6QGLYMME2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-Y6QGLYMME2');
+    </script>
+  </head>
+  <body>
+    <button id="themeToggleBtn" class="theme-toggle-btn" aria-label="Toggle light/dark mode" title="Toggle Light/Dark Mode">🌙</button>
+    <main class="site">
+      <section id="homeView">
+        <h1>Arknights Official Artworks</h1>
+        <div id="bookGrid" class="book-grid"></div>
+        <p class="home-notice">
+          The scans presented here were originally shared by fans on Chinese websites. This site is a reader
+          port intended to make the material more accessible for users who do not read Chinese or do not have
+          access to Baidu Account. If you are a rights holder and believe any content here infringes your
+          rights, please contact me through GitHub and I will review it promptly.(The site definitely not gonna last forever)
+        </p>
+        <div class="home-kofi">
+          <span class="kofi-note">A small tip helps cover Cloudflare image storage costs.</span>
+          <a href="https://ko-fi.com/K3K7RH05J" target="_blank" rel="noopener noreferrer"
+            ><img
+              class="kofi-image"
+              src="https://storage.ko-fi.com/cdn/kofi6.png?v=6"
+              alt="Buy Me a Coffee at ko-fi.com"
+          /></a>
+        </div>
+      </section>
+
+      <section id="readerView" class="hidden">
+        <div id="readerLoadingNotice" class="reader-loading-notice hidden">Loading please wait.</div>
+        <button id="backBtn" class="back-arrow-btn" aria-label="Back to covers" title="Back to Covers">&#8592;</button>
+
+        <div class="floating-tools" aria-label="Reader tools">
+          <button
+            id="downloadCurrentBtn"
+            class="tool-fab"
+            aria-label="Download current page"
+            title="Download Current Page"
+          >
+            &#128229;
+          </button>
+          <button id="magnifierBtn" class="tool-fab" aria-label="Toggle magnifier" title="Toggle Magnifier">
+            &#128269;
+          </button>
+        </div>
+
+        <div class="reader-layout">
+          <div class="book-area">
+            <div id="spread" class="spread" aria-live="polite">
+              <div class="page-slot left" id="leftSlot"></div>
+              <div class="page-slot right" id="rightSlot"></div>
+              <div id="magnifier" class="magnifier hidden" aria-hidden="true"></div>
+            </div>
+
+            <div class="bottom-controls">
+              <button id="prevBtn" class="nav-btn" aria-label="Previous pages">&larr;</button>
+              <div id="pageStatus" class="page-status">Page 1 / 1</div>
+              <button id="nextBtn" class="nav-btn" aria-label="Next pages">&rarr;</button>
+              <button id="previewBtn" class="secondary-btn">Page Preview</button>
+            </div>
+            <div id="downloadHint" class="download-hint-box hidden">Click the page you want to download.</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div id="pdfModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="pdfModalTitle">
+      <div class="modal-card">
+        <h2 id="pdfModalTitle">Large file warning</h2>
+        <p>
+          This PDF is extremely large and may take a long time to open and render pages,
+          even after download.
+        </p>
+        <p>
+          Recommend bookmarking the download links in case the site goes down, cause you know, COPYRIGHT.
+        </p>
+        <p>Recommended: read the book on this site for a smoother experience.</p>
+        <div class="modal-actions">
+          <button id="cancelPdfBtn" class="secondary-btn">Cancel</button>
+          <button id="archiveBtn" class="secondary-btn">Internet Archive</button>
+          <button id="confirmZipBtn" class="secondary-btn">Download ZIP</button>
+          <button id="confirmPdfBtn" class="primary-btn">Download PDF</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="previewModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="previewModalTitle">
+      <div class="modal-card preview-card">
+        <div class="preview-header">
+          <h2 id="previewModalTitle">All Pages</h2>
+          <button id="closePreviewBtn" class="secondary-btn">Close</button>
+        </div>
+        <div id="previewGrid" class="preview-grid"></div>
+      </div>
+    </div>
+
+    <footer class="site-footer">
+      <p>Original Scan I Believe is by <a href="https://space.bilibili.com/289629264" target="_blank">艺视</a></p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

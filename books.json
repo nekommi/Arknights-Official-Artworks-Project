@@ -1,0 +1,60 @@
+{
+  "books": [
+    {
+      "id": "vol1",
+      "title": "Arknights Official Artworks Vol 1 Reset",
+      "folder": "https://pub-0e818169695f4dd9bb70d64a1f9623c3.r2.dev/Arknights Official Artworks Vol 1 Reset",
+      "previewFolder": "Preview/preview_vol1",
+      "cover": "https://pub-0e818169695f4dd9bb70d64a1f9623c3.r2.dev/Arknights Official Artworks Vol 1 Reset/Arknights Official Artworks Vol 1 Reset Cover.webp",
+      "pdf": "https://mega.nz/file/KZNSkI7I#mVEXbylMBXQ3e3912i-HWw19eBXI3JSvojAF3WzuOsU",
+      "zip": "https://mega.nz/file/6AsjCYiQ#My8x7HlCGHPfQdqcuVvcAHgCj0UCKCv3f1q_8q7TA80",
+      "archive": "https://archive.org/details/arknights-official-artworks-vol-1-reset",
+      "pageCount": 352,
+      "pageStart": 1,
+      "pageTemplate": "Page ({n}).webp",
+      "coverPage": 1
+    },
+    {
+      "id": "vol2",
+      "title": "Arknights Official Artworks Vol 2",
+      "folder": "https://pub-0e818169695f4dd9bb70d64a1f9623c3.r2.dev/Arknights Official Artworks Vol 2",
+      "previewFolder": "Preview/preview_vol2",
+      "cover": "https://pub-0e818169695f4dd9bb70d64a1f9623c3.r2.dev/Arknights Official Artworks Vol 2/Arknights Official Artworks Vol 2 Cover.webp",
+      "pdf": "https://mega.nz/file/qBEHjLrK#lwS18aPuXWoJI_c8nCLVFStf_M_q0FuBbQgsURA5_lM",
+      "zip": "https://mega.nz/file/3AlT2KaR#6MPkmnwoVhgCyr4dbXrVNmdSq-zZUsycSRMIGkvoOIg",
+      "archive": "https://archive.org/details/arknights-official-artworks-vol-2",
+      "pageCount": 252,
+      "pageStart": 1,
+      "pageTemplate": "Page ({n}).webp",
+      "coverPage": 1
+    },
+    {
+      "id": "vol3",
+      "title": "Arknights Official Artworks Vol 3",
+      "folder": "https://pub-0e818169695f4dd9bb70d64a1f9623c3.r2.dev/Arknights Official Artworks Vol 3",
+      "previewFolder": "Preview/preview_vol3",
+      "cover": "https://pub-0e818169695f4dd9bb70d64a1f9623c3.r2.dev/Arknights Official Artworks Vol 3/Arknights Official Artworks Vol 3 Cover.webp",
+      "pdf": "https://mega.nz/file/jUEj1CDB#iz1-LGBzpakTHT7V0kCdOhCVT3yyxm610MItPCj4eRI",
+      "zip": "https://mega.nz/file/yZckkA6B#e9S3aXfKWevJ6_BYsZxPW-OcFxVaHR1isUca40Pr7xA",
+      "archive": "https://archive.org/details/arknights-official-artworks-vol-3",
+      "pageCount": 316,
+      "pageStart": 1,
+      "pageTemplate": "Page ({n}).webp",
+      "coverPage": 1
+    },
+    {
+      "id": "vol4",
+      "title": "Arknights Official Artworks Vol 4",
+      "folder": "https://pub-0e818169695f4dd9bb70d64a1f9623c3.r2.dev/Arknights Official Artworks Vol 4",
+      "previewFolder": "Preview/preview_vol4",
+      "cover": "https://pub-0e818169695f4dd9bb70d64a1f9623c3.r2.dev/Arknights Official Artworks Vol 4/Arknights Official Artworks Vol 4 Cover.webp",
+      "pdf": "https://mega.nz/file/KEkHUJrY#joeG0PlLHcuOb2b4MmAxbZVOUOcRUSDcMAZfuMVJSY4",
+      "zip": "https://mega.nz/file/qZdQHIKJ#t4WgZB4yKlw_x2iyMyNO5L5q6Jowk-L8sFsYpM-r844",
+      "archive": "https://archive.org/details/arknights-official-artworks-vol-4",
+      "pageCount": 360,
+      "pageStart": 1,
+      "pageTemplate": "Page ({n}).webp",
+      "coverPage": 1
+    }
+  ]
+}
